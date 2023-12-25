@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-link = lambda : f"https://github.com/arifmuhammad12/Bike-Exploratory_Data-Analys/blob/main/dashboard/bike_data.csv"
-bike_df = pd.read_csv(link("bike_data.csv"))
+bike_df = pd.read_csv("https://github.com/arifmuhammad12/Bike-Exploratory_Data-Analys/blob/main/dashboard/bike_data.csv")
 
 datetime_columns = ["date"]
 
