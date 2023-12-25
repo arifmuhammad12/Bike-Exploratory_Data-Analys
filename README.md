@@ -6,5 +6,6 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 %%writefile dashboard.py
 
-#Run Streamlit App
+# Run Streamlit App
+
 ! streamlit run dashboard.py
