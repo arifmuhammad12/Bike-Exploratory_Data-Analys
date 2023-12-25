@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 link = lambda x : f"https://github.com/arifmuhammad12/Bike-Exploratory_Data-Analys/blob/main/dashboard/bike_data.csv"
-bike_df = pd.read_csv("bike_data.csv")
+bike_df = pd.read_csv(link("bike_data.csv"))
 
 datetime_columns = ["date"]
 
